@@ -5,7 +5,8 @@
 #ifndef BUBBLE_H
 #define BUBBLE_H
 #include "global.h"
-int bubble(int *v, int n);
-int vergleich(int i, int j);
+void bubble(int *v, int n, int (*f) (int, int));
+int vergleichg(int i, int j);
+int vergleichk(int i, int j);
 void swap(int *a, int *b);
 #endif //BUBBLE_H
